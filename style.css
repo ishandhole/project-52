@@ -1,0 +1,104 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  font-size: 20px;
+  color: yellowgreen;
+}
+body {
+  margin: 0px;
+  background-color: #aaa;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+  font-style: italic;
+  font-family: serif;
+  border: 10px solid orange;
+}
+.grid img {
+  border: 15px solid crimson;
+  border-radius: 50px;
+}
+.origami {
+  border-radius: 20px;
+  background-color: yellow;
+  margin: 25px;
+  width: 300px;
+  font-family: cursive;
+  border: 5px solid olivedrab;
+}
+.full {
+  background-image: url("https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2020/04/26/Pictures/_b1161362-87b3-11ea-a351-6978c1d205f3.jpg");
+}
+h3 {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+  font-variant: normal;
+}
+h2 {
+  color: #663399;
+  font: larger;
+}
+h3 {
+  color: rgb(199, 115, 47);
+}
+.menu h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  opacity: 0.6;
+}
+.heading h1:hover {
+  opacity: 1;
+}
+h4 {
+  opacity: 0.6;
+}
+.camel_info {
+  opacity: 0;
+}
+.camel_info:hover {
+  opacity: 1;
+}
+.chameleon_info {
+  opacity: 0;
+}
+.chameleon_info:hover {
+  opacity: 1;
+}
+.pigeon_info {
+  opacity: 0;
+}
+.pigeon_info:hover {
+  opacity: 1;
+}
+.teddy {
+  opacity: 0;
+}
+.teddy:hover {
+  opacity: 1;
+}
+.panda_info {
+  opacity: 0;
+}
+.panda_info:hover {
+  opacity: 1;
+}
+.cicada_info {
+  opacity: 0;
+}
+.cicada_info:hover {
+  opacity: 1;
+}
+a:link {
+  color: #af7825;
+}
+a:visited {
+  color: rgb(31, 133, 99)
+}
